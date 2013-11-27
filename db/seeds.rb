@@ -7,4 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-Video.create(title: "Futurama", description: "Funny", small_cover_url: "/tmp/futurama.jpg", large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "Family Guy", description: "Funny", small_cover_url: "/tmp/family_guy.jpg",  large_cover_url: "/tmp/monk_large.jpg" )
+Category.create(name: "Cartoon")
+Category.create(name: "Comedy")
+Category.create(name: "Drama")
