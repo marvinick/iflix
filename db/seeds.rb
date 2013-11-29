@@ -7,7 +7,20 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-Video.create(title: "Family Guy", description: "Funny", small_cover_url: "/tmp/family_guy.jpg",  large_cover_url: "/tmp/monk_large.jpg" )
-Category.create(name: "Cartoon")
-Category.create(name: "Comedy")
-Category.create(name: "Drama")
+comedies = Category.create(name: "Comedies")
+dramas = Category.create(name: "Dramas")
+
+Video.create(title: "Family Guy", description: "Funny", small_cover_url: "/tmp/family_guy.jpg", category: comedies,  large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "Futurama", description: "Funny", small_cover_url: "/tmp/monk.jpg", category: comedies,  large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "Futurama", description: "Funny", small_cover_url: "/tmp/futurama.jpg", category: comedies,  large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "Monk", description: "Funny", small_cover_url: "/tmp/monk.jpg", category: comedies,  large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "Family Guy", description: "Funny", small_cover_url: "/tmp/south_park.jpg", category: comedies,  large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "Family Guy", description: "Funny", small_cover_url: "/tmp/family_guy.jpg", category: comedies,  large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "Futurama", description: "Funny", small_cover_url: "/tmp/family_guy.jpg", category: comedies,  large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "Family Guy", description: "Funny", small_cover_url: "/tmp/south_park.jpg", category: dramas,  large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "Monk", description: "Funny", small_cover_url: "/tmp/family_guy.jpg", category: dramas,  large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "South Park", description: "Funny", small_cover_url: "/tmp/family_guy.jpg", category: comedies,  large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "Family Guy", description: "Funny", small_cover_url: "/tmp/south_park.jpg", category: comedies,  large_cover_url: "/tmp/monk_large.jpg" )
+Video.create(title: "Monk", description: "Funny", small_cover_url: "/tmp/family_guy.jpg", category: dramas,  large_cover_url: "/tmp/monk_large.jpg" )
+
+

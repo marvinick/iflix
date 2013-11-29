@@ -11420,3 +11420,210 @@ Processing by VideosController#search as HTML
   Rendered shared/_header.html.haml (1.4ms)
   Rendered shared/_messages.html.haml (0.1ms)
 Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-28 22:02:09 -0600
+Processing by VideosController#index as HTML
+DEPRECATION WARNING: The following options in your Category.has_many :videos declaration are deprecated: :order. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Category> at /Users/marvin8214/Desktop/iflix/app/models/category.rb:2)
+  [1m[36mCategory Load (2.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mVideo Load (2.6ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 1]]
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 2]]
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 3]]
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 4]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 5]]
+  Rendered videos/index.html.haml within layouts/application (46.4ms)
+  Rendered shared/_header.html.haml (6.7ms)
+  Rendered shared/_messages.html.haml (2.0ms)
+Completed 200 OK in 423ms (Views: 381.2ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-28 22:02:10 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-28 22:03:13 -0600
+Processing by VideosController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 1]]
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 2]]
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 3]]
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 4]]
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 5]]
+  Rendered videos/index.html.haml within layouts/application (13.3ms)
+  Rendered shared/_header.html.haml (1.4ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 73ms (Views: 71.2ms | ActiveRecord: 1.3ms)
+  [1m[36m (2.3ms)[0m  [1mCREATE TABLE "categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "videos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "small_cover_url" varchar(255), "large_cover_url" varchar(255), "created_at" datetime, "updated_at" datetime, "category_id" integer) 
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131127033351')
+  [1m[36m (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131127005205')[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131127031709')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: The following options in your Category.has_many :videos declaration are deprecated: :order. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Category> at /Users/marvin8214/Desktop/iflix/app/models/category.rb:2)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (3.5ms)[0m  [1mINSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["name", "Comedies"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "categories" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["name", "Dramas"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/family_guy.jpg"], ["title", "Family Guy"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["category_id", 1], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/monk.jpg"], ["title", "Futurama"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/futurama.jpg"], ["title", "Futurama"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["category_id", 1], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/monk.jpg"], ["title", "Monk"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/south_park.jpg"], ["title", "Family Guy"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["category_id", 1], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/family_guy.jpg"], ["title", "Family Guy"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/family_guy.jpg"], ["title", "Futurama"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["category_id", 2], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/south_park.jpg"], ["title", "Family Guy"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 2], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/family_guy.jpg"], ["title", "Monk"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["category_id", 1], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/family_guy.jpg"], ["title", "South Park"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 1], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/south_park.jpg"], ["title", "Family Guy"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "videos" ("category_id", "created_at", "description", "large_cover_url", "small_cover_url", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["category_id", 2], ["created_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00], ["description", "Funny"], ["large_cover_url", "/tmp/monk_large.jpg"], ["small_cover_url", "/tmp/family_guy.jpg"], ["title", "Monk"], ["updated_at", Fri, 29 Nov 2013 04:12:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-28 22:13:14 -0600
+Processing by VideosController#index as HTML
+DEPRECATION WARNING: The following options in your Category.has_many :videos declaration are deprecated: :order. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Category> at /Users/marvin8214/Desktop/iflix/app/models/category.rb:2)
+  [1m[36mCategory Load (1.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mVideo Load (3.8ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 1]]
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 2]]
+  Rendered videos/index.html.haml within layouts/application (52.0ms)
+  Rendered shared/_header.html.haml (6.3ms)
+  Rendered shared/_messages.html.haml (1.7ms)
+Completed 200 OK in 358ms (Views: 313.7ms | ActiveRecord: 6.8ms)
