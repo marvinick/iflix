@@ -31724,3 +31724,155 @@ Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-02 07:44:11 -
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-02 07:44:11 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+Processing by PagesController#front as HTML
+  Rendered pages/front.html.haml within layouts/application (4.0ms)
+  Rendered shared/_header.html.haml (4.9ms)
+  Rendered shared/_messages.html.haml (1.6ms)
+Completed 200 OK in 341ms (Views: 303.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:30 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-02 11:11:31 -0600
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-12-02 11:11:33 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (3.6ms)
+  Rendered shared/_header.html.haml (0.4ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-12-02 11:11:40 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vzuUE9UQfIS9TXsbtuU++rv7ktKo2ws9dK/jsZzxK3Y=", "email"=>"marvin@seasalt.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'marvin@seasalt.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/home
+Completed 302 Found in 200ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-12-02 11:11:40 -0600
+Processing by VideosController#index as HTML
+  [1m[35mUser Load (3.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+DEPRECATION WARNING: The following options in your Category.has_many :videos declaration are deprecated: :order. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Category> at /Users/marvin8214/Desktop/iflix/app/models/category.rb:2)
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mVideo Load (0.6ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 1]]
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 2]]
+  Rendered videos/index.html.haml within layouts/application (46.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (3.0ms)
+  Rendered shared/_messages.html.haml (0.3ms)
+Completed 200 OK in 84ms (Views: 62.9ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/videos/11" for 127.0.0.1 at 2013-12-02 11:11:42 -0600
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  Rendered videos/show.html.haml within layouts/application (5.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (3.1ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.5ms)
