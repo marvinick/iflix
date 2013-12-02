@@ -11,7 +11,7 @@ comedies = Category.create(name: "Comedies")
 dramas = Category.create(name: "Dramas")
 
 
-User.create(full_name: "marvinick", password_digest: "password", email: "marvin@seasalt.com")
+marvin = User.create(full_name: "marvinick", password_digest: "password", email: "marvin@seasalt.com")
 
 Video.create(title: "Family Guy", description: "Funny Not", small_cover_url: "/tmp/family_guy.jpg", category: comedies,  large_cover_url: "/tmp/monk_large.jpg" )
 Video.create(title: "Futurama", description: "Funny maybe", small_cover_url: "/tmp/monk.jpg", category: comedies,  large_cover_url: "/tmp/monk_large.jpg" )
