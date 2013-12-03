@@ -10,7 +10,9 @@ Myflix::Application.routes.draw do
   end
 
   get 'ui(/:action)', controller: 'ui'
+
   resources :categories, only: [:index, :show]
+  resources :queue_items, only: [:create]
 
   get 'my_queue', to: 'queue_items#index'
 
