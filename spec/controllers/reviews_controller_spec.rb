@@ -36,7 +36,7 @@ describe ReviewsController do
           post :create, review: {rating: 4}, video_id: video.id
           expect(Review.count).to eq(0)
         end
-        it "renders the videoss/show template" do
+        it "renders the videos/show template" do
           video = Fabricate(:video)
           post :create, review: {rating: 4}, video_id: video.id
           expect(response).to render_template "videos/show"

@@ -3,6 +3,7 @@ require 'spec_helper'
 describe Category do
   it { should have_many(:videos)}
 
+
   describe "#recent_videos" do
     it "returns the videos in the reverse chronical order by created at" do
       comedies = Category.create(name: "comedies")
