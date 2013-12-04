@@ -44281,3 +44281,297 @@ ActionController::RoutingError (No route matches [GET] "/update_queue"):
   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.5ms)
   Rendered /usr/local/rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (48.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-04 16:08:38 -0600
+Processing by PagesController#front as HTML
+  Rendered pages/front.html.haml within layouts/application (5.0ms)
+  Rendered shared/_header.html.haml (6.9ms)
+  Rendered shared/_messages.html.haml (1.9ms)
+Completed 200 OK in 396ms (Views: 354.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-04 16:08:39 -0600
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-12-04 16:08:53 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (6.1ms)
+  Rendered shared/_header.html.haml (0.2ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-12-04 16:09:00 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"63TGEPJDzMuNCty0KQXU/kLh/lTYs5uWZiIt6lYusEo=", "email"=>"ace@seasalt.com", "password"=>"[FILTERED]"}
+DEPRECATION WARNING: The following options in your User.has_many :queue_items declaration are deprecated: :order. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:User> at /Users/marvin8214/Desktop/iflix/app/models/user.rb:7)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'ace@seasalt.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/home
+Completed 302 Found in 151ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-12-04 16:09:00 -0600
+Processing by VideosController#index as HTML
+  [1m[35mUser Load (2.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+DEPRECATION WARNING: The following options in your Video.has_many :reviews declaration are deprecated: :order. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Video> at /Users/marvin8214/Desktop/iflix/app/models/video.rb:3)
+DEPRECATION WARNING: The following options in your Category.has_many :videos declaration are deprecated: :order. Please use a scope block instead. For example, the following:
+
+    has_many :spam_comments, conditions: { spam: true }, class_name: 'Comment'
+
+should be rewritten as the following:
+
+    has_many :spam_comments, -> { where spam: true }, class_name: 'Comment'
+. (called from <class:Category> at /Users/marvin8214/Desktop/iflix/app/models/category.rb:2)
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mVideo Load (0.9ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 1]]
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 2]]
+  Rendered videos/index.html.haml within layouts/application (81.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (4.8ms)
+  Rendered shared/_messages.html.haml (0.4ms)
+Completed 200 OK in 123ms (Views: 103.7ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/queue_items" for 127.0.0.1 at 2013-12-04 16:09:02 -0600
+Processing by QueueItemsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mQueueItem Load (1.1ms)[0m  SELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."user_id" = ? ORDER BY "queue_items"."position" ASC  [["user_id", 1]]
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 9]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = 1 AND "reviews"."video_id" = 9 ORDER BY "reviews"."id" ASC LIMIT 1[0m
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = 1 AND "reviews"."video_id" = 8 ORDER BY "reviews"."id" ASC LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered queue_items/index.html.haml within layouts/application (97.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.haml (2.6ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 126ms (Views: 112.0ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-12-04 16:09:02 -0600
+
+
+Started POST "/update_queue" for 127.0.0.1 at 2013-12-04 16:09:07 -0600
+Processing by QueueItemsController#update_queue as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"63TGEPJDzMuNCty0KQXU/kLh/lTYs5uWZiIt6lYusEo=", "queue_items"=>[{"id"=>"3", "position"=>"1"}, {"id"=>"4", "position"=>"2"}], "commit"=>"Update Instant Queue"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mQueueItem Load (0.2ms)[0m  [1mSELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (3.2ms)[0m  UPDATE "queue_items" SET "position" = ?, "updated_at" = ? WHERE "queue_items"."id" = 3  [["position", 1], ["updated_at", Wed, 04 Dec 2013 22:09:07 UTC +00:00]]
+  [1m[36mQueueItem Load (0.1ms)[0m  [1mSELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "queue_items" SET "position" = ?, "updated_at" = ? WHERE "queue_items"."id" = 4  [["position", 2], ["updated_at", Wed, 04 Dec 2013 22:09:07 UTC +00:00]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mQueueItem Load (0.2ms)[0m  [1mSELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."user_id" = ? ORDER BY "queue_items"."position" ASC[0m  [["user_id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/my_queue
+Completed 302 Found in 28ms (ActiveRecord: 7.6ms)
+
+
+Started GET "/my_queue" for 127.0.0.1 at 2013-12-04 16:09:07 -0600
+Processing by QueueItemsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mQueueItem Load (0.2ms)[0m  SELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."user_id" = ? ORDER BY "queue_items"."position" ASC  [["user_id", 1]]
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 9]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = 1 AND "reviews"."video_id" = 9 ORDER BY "reviews"."id" ASC LIMIT 1[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = 1 AND "reviews"."video_id" = 8 ORDER BY "reviews"."id" ASC LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered queue_items/index.html.haml within layouts/application (13.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.haml (2.2ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 32ms (Views: 28.0ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/update_queue" for 127.0.0.1 at 2013-12-04 16:09:15 -0600
+Processing by QueueItemsController#update_queue as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"63TGEPJDzMuNCty0KQXU/kLh/lTYs5uWZiIt6lYusEo=", "queue_items"=>[{"id"=>"3", "position"=>"1.5"}, {"id"=>"4", "position"=>"10"}], "commit"=>"Update Instant Queue"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mQueueItem Load (0.1ms)[0m  [1mSELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+Redirected to http://localhost:3000/my_queue
+Completed 302 Found in 306ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/my_queue" for 127.0.0.1 at 2013-12-04 16:09:15 -0600
+Processing by QueueItemsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mQueueItem Load (0.2ms)[0m  [1mSELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."user_id" = ? ORDER BY "queue_items"."position" ASC[0m  [["user_id", 1]]
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 9]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = 1 AND "reviews"."video_id" = 9 ORDER BY "reviews"."id" ASC LIMIT 1
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = 1 AND "reviews"."video_id" = 8 ORDER BY "reviews"."id" ASC LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered queue_items/index.html.haml within layouts/application (12.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (2.3ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 1.4ms)
+
+
+Started DELETE "/queue_items/3" for 127.0.0.1 at 2013-12-04 16:09:20 -0600
+Processing by QueueItemsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"63TGEPJDzMuNCty0KQXU/kLh/lTYs5uWZiIt6lYusEo=", "id"=>"3"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mQueueItem Load (0.2ms)[0m  [1mSELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mQueueItem Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "queue_items" WHERE "queue_items"."user_id" = ? AND "queue_items"."id" = 3 LIMIT 1[0m  [["user_id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "queue_items" WHERE "queue_items"."id" = ?[0m  [["id", 3]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mQueueItem Load (0.2ms)[0m  SELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."user_id" = ? ORDER BY "queue_items"."position" ASC  [["user_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "queue_items" SET "position" = ?, "updated_at" = ? WHERE "queue_items"."id" = 4  [["position", 1], ["updated_at", Wed, 04 Dec 2013 22:09:20 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/my_queue
+Completed 302 Found in 72ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/my_queue" for 127.0.0.1 at 2013-12-04 16:09:20 -0600
+Processing by QueueItemsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mQueueItem Load (0.2ms)[0m  SELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."user_id" = ? ORDER BY "queue_items"."position" ASC  [["user_id", 1]]
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = 1 AND "reviews"."video_id" = 8 ORDER BY "reviews"."id" ASC LIMIT 1[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered queue_items/index.html.haml within layouts/application (8.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.haml (2.5ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 29ms (Views: 25.6ms | ActiveRecord: 1.1ms)
