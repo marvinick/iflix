@@ -115,6 +115,7 @@ describe QueueItemsController do
       it "redirects to my queue page" do
         marv = Fabricate(:user)
         session[:user_id] = marv.id
+        video = Fabricate(:video)
         queue_item1 = Fabricate(:queue_item, user: marv, position: 1)
         queue_item2 = Fabricate(:queue_item, user: marv, position: 2)
         post :update_queue, queue_items: [{id: queue_item1.id, position: 2}, {id: queue_item2.id, position: 1}]
