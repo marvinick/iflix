@@ -4,4 +4,8 @@ class AppMailer < ActionMailer::Base
     mail to: user.email, from: "info@iflix.com", subject: "Welcome to iflix!"
   end
 
+  def send_forgot_password(user)
+    @user = user
+    mail to: user.email, from: "info@iflix.com", subject: "Please reset your password"
+  end
 end
