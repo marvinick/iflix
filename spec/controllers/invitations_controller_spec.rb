@@ -61,7 +61,7 @@ describe InvitationsController do
 
       it "does not send out an email" do
         set_current_user
-        post :create, invitation: { recipient_email: "ace@seasalt.com" }
+        post :create, invitation: { recipient_name: "Ace Nick" }
         expect(ActionMailer::Base.deliveries).to be_empty
       end
 

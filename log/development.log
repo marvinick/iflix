@@ -67658,3 +67658,1903 @@ Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-10 20
 
 
 Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-10 20:34:01 -0600
+
+
+Started GET "/home" for 127.0.0.1 at 2013-12-10 22:45:56 -0600
+Processing by VideosController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mVideo Load (1.0ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 1]]
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 2]]
+  Rendered videos/index.html.haml within layouts/application (54.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.haml (5.7ms)
+  Rendered shared/_messages.html.haml (0.4ms)
+Completed 200 OK in 177ms (Views: 97.5ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:57 -0600
+
+
+Started GET "/videos/8" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? LIMIT 1  [["id", "8"]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mQueueItem Load (0.7ms)[0m  SELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."user_id" = ? ORDER BY "queue_items"."position" ASC  [["user_id", 1]]
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 10]]
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 9]]
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 11]]
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."video_id" = ?[0m  [["video_id", 8]]
+  [1m[35mReview Load (0.6ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."video_id" = ? ORDER BY created_at DESC  [["video_id", 8]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered videos/show.html.haml within layouts/application (110.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (4.8ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 157ms (Views: 139.2ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-10 22:45:59 -0600
+
+
+Started GET "/users/1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "queue_items" WHERE "queue_items"."user_id" = ?  [["user_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mRelationship Load (0.4ms)[0m  SELECT "relationships".* FROM "relationships" WHERE "relationships"."follower_id" = ?  [["follower_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mQueueItem Load (0.2ms)[0m  [1mSELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."user_id" = ? ORDER BY "queue_items"."position" ASC[0m  [["user_id", 1]]
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 10]]
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mVideo Load (0.2ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 9]]
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? ORDER BY "categories"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."user_id" = ?  [["user_id", 1]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = ? ORDER BY created_at DESC[0m  [["user_id", 1]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 11]]
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 9]]
+  Rendered users/show.html.haml within layouts/application (118.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (3.2ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 151ms (Views: 140.2ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:03 -0600
+
+
+Started GET "/videos/11" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mQueueItem Load (0.2ms)[0m  [1mSELECT "queue_items".* FROM "queue_items" WHERE "queue_items"."user_id" = ? ORDER BY "queue_items"."position" ASC[0m  [["user_id", 1]]
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 10]]
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 7]]
+  [1m[35mVideo Load (0.1ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1  [["id", 9]]
+  [1m[36mVideo Load (0.1ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."id" = ? ORDER BY "videos"."id" ASC LIMIT 1[0m  [["id", 11]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."video_id" = ?  [["video_id", 11]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."video_id" = ? ORDER BY created_at DESC[0m  [["video_id", 11]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered videos/show.html.haml within layouts/application (18.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (3.0ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 46ms (Views: 40.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:05 -0600
+
+
+Started GET "/categories/2" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 2]]
+  Rendered categories/show.html.haml within layouts/application (5.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (4.0ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 32ms (Views: 28.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:08 -0600
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 1]]
+  Rendered categories/show.html.haml within layouts/application (7.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (4.9ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 34ms (Views: 31.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:12 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:13 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:13 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-10 22:46:13 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddTokenToInvitations (20131211045431)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.2ms)[0m  [1mALTER TABLE "invitations" ADD "token" varchar(255)[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131211045431"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "invitations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "inviter_id" integer, "recipient_name" varchar(255), "recipient_email" varchar(255), "message" text, "created_at" datetime, "updated_at" datetime, "token" varchar(255)) 
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "queue_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "video_id" integer, "user_id" integer, "position" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.4ms)[0m  CREATE TABLE "relationships" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "leader_id" integer, "follower_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "reviews" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "video_id" integer, "content" text, "rating" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_digest" varchar(255), "full_name" varchar(255), "created_at" datetime, "updated_at" datetime, "token" varchar(255)) 
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "videos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "small_cover_url" varchar(255), "large_cover_url" varchar(255), "created_at" datetime, "updated_at" datetime, "category_id" integer) [0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131211045431')[0m
+  [1m[35m (0.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131127005205')
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131127031709')[0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131127033351')
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131129151735')[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131202190638')
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131203132137')[0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131208174321')
+  [1m[36m (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131209204002')[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131209204638')
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131210140904')[0m
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.7ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 1]]
+  Rendered categories/show.html.haml within layouts/application (34.8ms)
+  [1m[35mUser Load (1.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (231.0ms)
+  Rendered shared/_messages.html.haml (0.3ms)
+Completed 200 OK in 338ms (Views: 300.1ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 1]]
+  Rendered categories/show.html.haml within layouts/application (10.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (5.8ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:56 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 23:41:58 -0600
+Processing by PagesController#front as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/home
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-12-10 23:41:58 -0600
+Processing by VideosController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 1]]
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 2]]
+  Rendered videos/index.html.haml within layouts/application (17.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.haml (5.4ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 53ms (Views: 48.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:58 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:58 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:58 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:58 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:58 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:58 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:58 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:58 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:58 -0600
+
+
+Started GET "/invitations/new" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+Processing by InvitationsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered invitations/new.html.haml within layouts/application (17.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (3.9ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 53ms (Views: 44.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-10 23:41:59 -0600
+
+
+Started POST "/invitations" for 127.0.0.1 at 2013-12-10 23:42:17 -0600
+Processing by InvitationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FGA2BZxU8duX5JXIiem0GPlewnwLQ+hWnOO5C6YTD0Y=", "invitation"=>{"recipient_name"=>"marvininini", "recipient_email"=>"marvinr@ksks.com", "message"=>"okaaasdssdasd"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (4.5ms)[0m  begin transaction
+  [1m[36mSQL (3.1ms)[0m  [1mINSERT INTO "invitations" ("created_at", "inviter_id", "message", "recipient_email", "recipient_name", "token", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 11 Dec 2013 05:42:18 UTC +00:00], ["inviter_id", 1], ["message", "okaaasdssdasd"], ["recipient_email", "marvinr@ksks.com"], ["recipient_name", "marvininini"], ["token", "XjN7zU9NyxPJOFBzuFmpYg"], ["updated_at", Wed, 11 Dec 2013 05:42:18 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered app_mailer/send_invitation_email.html.haml (10.9ms)
+
+Sent mail to marvinr@ksks.com (28.5ms)
+Date: Tue, 10 Dec 2013 23:42:18 -0600
+From: info@myflix.com
+To: marvinr@ksks.com
+Message-ID: <52a7fb3ad5b8_de83fd33e05e6e079170@mcair.local.mail>
+Subject: Come come
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html lang='en-US'>
+  <body>
+    <p>You are invited by marvin to join iflix!</p>
+    <p>okaaasdssdasd</p>
+    <p><a href="http://localhost:3000/register/XjN7zU9NyxPJOFBzuFmpYg">Accept this invitation</a></p>
+  </body>
+</html>
+
+Redirected to http://localhost:3000/invitations/new
+Completed 302 Found in 91ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/invitations/new" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+Processing by InvitationsController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered invitations/new.html.haml within layouts/application (8.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.haml (5.9ms)
+  Rendered shared/_messages.html.haml (0.5ms)
+Completed 200 OK in 49ms (Views: 42.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-10 23:42:18 -0600
+
+
+Started GET "/sign_out" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+Processing by PagesController#front as HTML
+  Rendered pages/front.html.haml within layouts/application (3.5ms)
+  Rendered shared/_header.html.haml (0.6ms)
+  Rendered shared/_messages.html.haml (0.3ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-10 23:43:13 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-11 09:38:01 -0600
+Processing by PagesController#front as HTML
+  Rendered pages/front.html.haml within layouts/application (5.8ms)
+  Rendered shared/_header.html.haml (5.0ms)
+  Rendered shared/_messages.html.haml (1.6ms)
+Completed 200 OK in 346ms (Views: 311.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:02 -0600
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-12-11 09:38:04 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (4.8ms)
+  Rendered shared/_header.html.haml (0.3ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-12-11 09:38:08 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s+nJGyn1G5MihczXo1imFRDKAQYFdnhJollgAYNxi70=", "email"=>"ace@seasalt.com", "password"=>"[FILTERED]"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'ace@seasalt.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/home
+Completed 302 Found in 223ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-12-11 09:38:08 -0600
+Processing by VideosController#index as HTML
+  [1m[35mUser Load (2.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  [1m[35mVideo Load (1.1ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 1]]
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 2]]
+  Rendered videos/index.html.haml within layouts/application (41.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (2.8ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 71ms (Views: 55.6ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/invitations/new" for 127.0.0.1 at 2013-12-11 09:38:11 -0600
+Processing by InvitationsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered invitations/new.html.haml within layouts/application (20.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.haml (3.3ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 45ms (Views: 38.7ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/invitations" for 127.0.0.1 at 2013-12-11 09:38:38 -0600
+Processing by InvitationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s+nJGyn1G5MihczXo1imFRDKAQYFdnhJollgAYNxi70=", "invitation"=>{"recipient_name"=>"acenivk", "recipient_email"=>"marv@seasalter.com", "message"=>"kamdkasdlanlanfenfanlca"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "invitations" ("created_at", "inviter_id", "message", "recipient_email", "recipient_name", "token", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 11 Dec 2013 15:38:38 UTC +00:00], ["inviter_id", 1], ["message", "kamdkasdlanlanfenfanlca"], ["recipient_email", "marv@seasalter.com"], ["recipient_name", "acenivk"], ["token", "qi5oC86igiza8dR6x0AWZw"], ["updated_at", Wed, 11 Dec 2013 15:38:38 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered app_mailer/send_invitation_email.html.haml (8.3ms)
+
+Sent mail to marv@seasalter.com (71.7ms)
+Date: Wed, 11 Dec 2013 09:38:38 -0600
+From: info@myflix.com
+To: marv@seasalter.com
+Message-ID: <52a886fe32aae_4333fd58545e6e87169e@mcair.local.mail>
+Subject: Come come
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html lang='en-US'>
+  <body>
+    <p>You are invited by marvin to join iflix!</p>
+    <p>kamdkasdlanlanfenfanlca</p>
+    <p><a href="http://localhost:3000/register/qi5oC86igiza8dR6x0AWZw">Accept this invitation</a></p>
+  </body>
+</html>
+
+Redirected to http://localhost:3000/invitations/new
+Completed 302 Found in 124ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/invitations/new" for 127.0.0.1 at 2013-12-11 09:38:38 -0600
+Processing by InvitationsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered invitations/new.html.haml within layouts/application (6.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_header.html.haml (8.1ms)
+  Rendered shared/_messages.html.haml (0.7ms)
+Completed 200 OK in 45ms (Views: 41.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/register/qi5oC86igiza8dR6x0AWZw" for 127.0.0.1 at 2013-12-11 09:38:40 -0600
+Processing by UsersController#new_with_invitation_token as HTML
+  Parameters: {"token"=>"qi5oC86igiza8dR6x0AWZw"}
+  [1m[35mInvitation Load (0.3ms)[0m  SELECT "invitations".* FROM "invitations" WHERE "invitations"."token" = 'qi5oC86igiza8dR6x0AWZw' ORDER BY "invitations"."id" ASC LIMIT 1
+  Rendered users/new.html.haml within layouts/application (365.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.haml (4.1ms)
+  Rendered shared/_messages.html.haml (0.1ms)
+Completed 200 OK in 388ms (Views: 384.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 09:38:41 -0600
+
+
+Started POST "/users" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s+nJGyn1G5MihczXo1imFRDKAQYFdnhJollgAYNxi70=", "user"=>{"email"=>"ace@sesalter.com", "password"=>"[FILTERED]", "full_name"=>"Marvini"}, "invitation_token"=>"qi5oC86igiza8dR6x0AWZw"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'ace@sesalter.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "full_name", "password_digest", "token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 11 Dec 2013 15:39:14 UTC +00:00], ["email", "ace@sesalter.com"], ["full_name", "Marvini"], ["password_digest", "$2a$10$.PlRA89ikgdFVyKjPXddr.8d/icWPPXoLxq9y8lK4GWXyHQ9cVJaO"], ["token", "O3lKy7ufMQhR9GdJY8ZNqw"], ["updated_at", Wed, 11 Dec 2013 15:39:14 UTC +00:00]]
+  [1m[35m (2.2ms)[0m  commit transaction
+  [1m[36mInvitation Load (0.3ms)[0m  [1mSELECT "invitations".* FROM "invitations" WHERE "invitations"."token" = 'qi5oC86igiza8dR6x0AWZw' ORDER BY "invitations"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mRelationship Load (0.3ms)[0m  [1mSELECT "relationships".* FROM "relationships" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 9]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "relationships" ("created_at", "follower_id", "leader_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Wed, 11 Dec 2013 15:39:14 UTC +00:00], ["follower_id", 9], ["leader_id", 1], ["updated_at", Wed, 11 Dec 2013 15:39:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36mRelationship Load (0.2ms)[0m  [1mSELECT "relationships".* FROM "relationships" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "relationships" ("created_at", "follower_id", "leader_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Wed, 11 Dec 2013 15:39:14 UTC +00:00], ["follower_id", 1], ["leader_id", 9], ["updated_at", Wed, 11 Dec 2013 15:39:14 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE "invitations" SET "token" = NULL WHERE "invitations"."id" = 3[0m
+  Rendered app_mailer/send_welcome_email.html.haml (1.8ms)
+
+Sent mail to ace@sesalter.com (24.8ms)
+Date: Wed, 11 Dec 2013 09:39:14 -0600
+From: info@iflix.com
+To: ace@sesalter.com
+Message-ID: <52a887224e75d_4333fd58545e6e8717f2@mcair.local.mail>
+Subject: Welcome to iflix!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html lang='en-US'>
+  <body>
+    <p>Welcome to iflix, Marvini!</p>
+  </body>
+</html>
+
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 209ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/home
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+Processing by VideosController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories"
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC[0m  [["category_id", 1]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT "videos".* FROM "videos" WHERE "videos"."category_id" = ? ORDER BY created_at DESC  [["category_id", 2]]
+  Rendered videos/index.html.haml within layouts/application (18.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.haml (4.6ms)
+  Rendered shared/_messages.html.haml (0.3ms)
+Completed 200 OK in 54ms (Views: 50.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:14 -0600
+
+
+Started GET "/people" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+Processing by RelationshipsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mRelationship Load (0.2ms)[0m  [1mSELECT "relationships".* FROM "relationships" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "queue_items" WHERE "queue_items"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "relationships" WHERE "relationships"."leader_id" = ?  [["leader_id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "queue_items" WHERE "queue_items"."user_id" = ?  [["user_id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "relationships" WHERE "relationships"."leader_id" = ?[0m  [["leader_id", 3]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 9]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "queue_items" WHERE "queue_items"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "relationships" WHERE "relationships"."leader_id" = ?  [["leader_id", 9]]
+  Rendered relationships/index.html.haml within layouts/application (30.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_header.html.haml (3.7ms)
+  Rendered shared/_messages.html.haml (0.2ms)
+Completed 200 OK in 56ms (Views: 49.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-12-11 09:39:26 -0600
+
+
+Started GET "/sign_out" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+Processing by PagesController#front as HTML
+  Rendered pages/front.html.haml within layouts/application (0.6ms)
+  Rendered shared/_header.html.haml (0.3ms)
+  Rendered shared/_messages.html.haml (0.3ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/account_and_billing.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/whitespace-reset.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/general.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/genre.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/invite.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/public_pages.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/queue.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 09:39:33 -0600
