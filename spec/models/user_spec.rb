@@ -8,9 +8,8 @@ describe User do
   it { should have_many(:queue_items) }
   it { should have_many(:reviews) }
 
-  it "generates a random token when the user is created" do
-    marv = Fabricate(:user)
-    expect(marv.token).to be_present
+  it_behaves_like "tokenable" do
+    let(:object) { Fabricate(:user) }
   end
 
   describe "#queued_video?" do
