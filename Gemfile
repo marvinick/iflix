@@ -11,6 +11,8 @@ gem 'bootstrap_form'
 gem 'bcrypt-ruby'
 gem "fabrication"
 gem "faker"
+gem "carrierwave"
+gem "mini_magick"
 
 group :development do
   gem 'sqlite3'
