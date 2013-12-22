@@ -13,7 +13,7 @@ class UsersController < ApplicationController
       Stripe::Charge.create(
         :amount => 999,
         :currency => "usd",
-        :card => params[:stripeToken], # obtained with Stripe.js
+        :card => stripe_params, # obtained with Stripe.js
         :description => "Sign up charge for #{@user.email}"
       )
       AppMailer.send_welcome_email(@user).deliver
@@ -39,6 +39,10 @@ class UsersController < ApplicationController
   end
 
   private
+
+  def stripe_params
+    params.require(:user).permit(:stripeToken)
+  end
 
   def user_params
     params.require(:user).permit(:full_name, :email, :password)
