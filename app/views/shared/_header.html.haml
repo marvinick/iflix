@@ -1,10 +1,10 @@
 %section#top-header.row
   %h1.col-md-2
-    = link_to "iFLiX", root_path
+    = link_to "iFLiX -- the future of Trailers", root_path
   - if current_user
     %ul.col-md-4.clearfix
-      %li= link_to "Videos", home_path
-      %li= link_to "My Queue", queue_items_path
+      %li= link_to "Trailers", home_path
+      %li= link_to "my Trailer Lists", queue_items_path
       %li= link_to "People", people_path
     = form_tag search_videos_path, class: "span5 for-search" do
       %input.search-query(name="search_term" type="text" placeholder="Search for videos here")
@@ -17,7 +17,7 @@
             %b.caret
           %ul.dropdown-menu(role="menu" aria-labelledby="dlabel")
             %li
-              = link_to "Invite a friend", new_invitation_path
+              = link_to "Invite", new_invitation_path
               %a(href="#") Account
               %a(href="#") Plan and Billing
               = link_to "Sign Out", sign_out_path

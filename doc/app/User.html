@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<title>class User - Rails Application Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>app/models/user.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">ActiveRecord::Base
+  
+</nav>
+
+    <!-- Included Modules -->
+<nav id="includes-section" class="section">
+  <h3 class="section-header">Included Modules</h3>
+
+  <ul class="link-list">
+  
+  
+    <li><a class="include" href="Tokenable.html">Tokenable</a>
+  
+  
+  </ul>
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li ><a href="#method-i-can_follow-3F">#can_follow?</a>
+    
+    <li ><a href="#method-i-follow">#follow</a>
+    
+    <li ><a href="#method-i-follows-3F">#follows?</a>
+    
+    <li ><a href="#method-i-normalize_queue_item_positions">#normalize_queue_item_positions</a>
+    
+    <li ><a href="#method-i-queued_video-3F">#queued_video?</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./README_rdoc.html">README</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./Admin.html">Admin</a>
+  
+    <li><a href="./Admin/VideosController.html">Admin::VideosController</a>
+  
+    <li><a href="./AppMailer.html">AppMailer</a>
+  
+    <li><a href="./ApplicationController.html">ApplicationController</a>
+  
+    <li><a href="./ApplicationHelper.html">ApplicationHelper</a>
+  
+    <li><a href="./CategoriesController.html">CategoriesController</a>
+  
+    <li><a href="./Category.html">Category</a>
+  
+    <li><a href="./ForgotPasswordsController.html">ForgotPasswordsController</a>
+  
+    <li><a href="./Invitation.html">Invitation</a>
+  
+    <li><a href="./InvitationsController.html">InvitationsController</a>
+  
+    <li><a href="./LargeCoverUploader.html">LargeCoverUploader</a>
+  
+    <li><a href="./PagesController.html">PagesController</a>
+  
+    <li><a href="./PasswordResetsController.html">PasswordResetsController</a>
+  
+    <li><a href="./QueueItem.html">QueueItem</a>
+  
+    <li><a href="./QueueItemsController.html">QueueItemsController</a>
+  
+    <li><a href="./Relationship.html">Relationship</a>
+  
+    <li><a href="./RelationshipsController.html">RelationshipsController</a>
+  
+    <li><a href="./Review.html">Review</a>
+  
+    <li><a href="./ReviewsController.html">ReviewsController</a>
+  
+    <li><a href="./SessionsController.html">SessionsController</a>
+  
+    <li><a href="./SmallCoverUploader.html">SmallCoverUploader</a>
+  
+    <li><a href="./Tokenable.html">Tokenable</a>
+  
+    <li><a href="./UiController.html">UiController</a>
+  
+    <li><a href="./User.html">User</a>
+  
+    <li><a href="./UsersController.html">UsersController</a>
+  
+    <li><a href="./Video.html">Video</a>
+  
+    <li><a href="./VideosController.html">VideosController</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class User</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-can_follow-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">can_follow?</span><span
+            class="method-args">(another_user)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="can_follow-3F-source">
+            <pre><span class="ruby-comment"># File app/models/user.rb, line 30</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">can_follow?</span>(<span class="ruby-identifier">another_user</span>)
+  <span class="ruby-operator">!</span>(<span class="ruby-keyword">self</span>.<span class="ruby-identifier">follows?</span>(<span class="ruby-identifier">another_user</span>) <span class="ruby-operator">||</span> <span class="ruby-keyword">self</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">another_user</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- can_follow-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- can_follow-3F-method -->
+
+    
+      <div id="method-i-follow" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">follow</span><span
+            class="method-args">(another_user)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="follow-source">
+            <pre><span class="ruby-comment"># File app/models/user.rb, line 34</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">follow</span>(<span class="ruby-identifier">another_user</span>)
+  <span class="ruby-identifier">following_relationships</span>.<span class="ruby-identifier">create</span>(<span class="ruby-identifier">leader</span><span class="ruby-operator">:</span> <span class="ruby-identifier">another_user</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">can_follow?</span>(<span class="ruby-identifier">another_user</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- follow-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- follow-method -->
+
+    
+      <div id="method-i-follows-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">follows?</span><span
+            class="method-args">(another_user)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="follows-3F-source">
+            <pre><span class="ruby-comment"># File app/models/user.rb, line 26</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">follows?</span>(<span class="ruby-identifier">another_user</span>)
+  <span class="ruby-identifier">following_relationships</span>.<span class="ruby-identifier">map</span>(<span class="ruby-operator">&amp;</span><span class="ruby-value">:leader</span>).<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">another_user</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- follows-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- follows-3F-method -->
+
+    
+      <div id="method-i-normalize_queue_item_positions" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">normalize_queue_item_positions</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="normalize_queue_item_positions-source">
+            <pre><span class="ruby-comment"># File app/models/user.rb, line 16</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">normalize_queue_item_positions</span>
+  <span class="ruby-identifier">queue_items</span>.<span class="ruby-identifier">each_with_index</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">queue_item</span>, <span class="ruby-identifier">index</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">queue_item</span>.<span class="ruby-identifier">update_attributes</span>(<span class="ruby-identifier">position</span><span class="ruby-operator">:</span> <span class="ruby-identifier">index</span><span class="ruby-operator">+</span><span class="ruby-value">1</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- normalize_queue_item_positions-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- normalize_queue_item_positions-method -->
+
+    
+      <div id="method-i-queued_video-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">queued_video?</span><span
+            class="method-args">(video)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="queued_video-3F-source">
+            <pre><span class="ruby-comment"># File app/models/user.rb, line 22</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">queued_video?</span>(<span class="ruby-identifier">video</span>)
+  <span class="ruby-identifier">queue_items</span>.<span class="ruby-identifier">map</span>(<span class="ruby-operator">&amp;</span><span class="ruby-value">:video</span>).<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">video</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- queued_video-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- queued_video-3F-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+
